@@ -1,7 +1,7 @@
 {
   "name": "mi-atoms",
-  "version": "1.0.3",
-  "description": "",
+  "version": "1.0.5",
+  "description": "Design system for React application using atomic design",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "scripts": {
