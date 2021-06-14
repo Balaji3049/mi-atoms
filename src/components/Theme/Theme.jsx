@@ -1,5 +1,10 @@
 import React from "react";
-import { createMuiTheme, StylesProvider } from "@material-ui/core/styles";
+import {
+    createMuiTheme,
+    ThemeProvider,
+    StylesProvider,
+} from "@material-ui/core/styles";
+import CssBaseline from "@material-ui/core/CssBaseline";
 import { lightBlue, purple } from "@material-ui/core/colors";
 
 const Theme = createMuiTheme({
@@ -16,10 +21,10 @@ const Theme = createMuiTheme({
 export const App = (props) => {
     return (
         <StylesProvider injectFirst>
-            <MuiThemeProvider theme={Theme}>
+            <ThemeProvider theme={Theme}>
                 <CssBaseline />
                 {props.children}
-            </MuiThemeProvider>
+            </ThemeProvider>
         </StylesProvider>
     );
 };
