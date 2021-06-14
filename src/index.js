@@ -18,3 +18,4 @@ export * from "./components/Menu";
 export * from "./components/MenuItem";
 export * from "./components/Toolbar";
 export * from "./components/Typography";
+export * from "./components/Theme";
