@@ -72,7 +72,7 @@ export default [
             },
             /* {
                 file: "dist/bundle.js",
-                format: "iife",
+                //format: "iife",
                 //sourcemap: true,
             }, */
             {
