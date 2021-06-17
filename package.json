@@ -1,5 +1,5 @@
 {
-  "name": "mi-atoms",
+  "name": "@balaji3049/mi-atoms",
   "version": "1.1.7",
   "description": "Design system for React application using atomic design",
   "main": "dist/index.js",
