@@ -4,6 +4,9 @@
   "description": "Design system for React application using atomic design",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/@Balaji3049"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup src/index.js --file bundle.js --format cjs",
